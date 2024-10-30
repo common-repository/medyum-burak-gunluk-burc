@@ -1,0 +1,82 @@
+.burc_container {
+    display: block;
+    width: 100%;
+    clear: both;
+    height: auto;
+    background: #FBFBFB;
+    border: 1px solid #DFDFDF;
+    border-radius: 3px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.burc_content {
+    display: block;
+    width: 700px;
+    height: 300px;
+    clear: both;
+    height: auto;
+    background: #FBFBFB;
+    border: 1px solid #DFDFDF;
+    border-radius: 3px;
+    color: #444;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    font-size: 14px;
+    font-family: 'Tahoma';
+}
+
+.burc_content>p:last-child {
+    margin: 0;
+}
+
+.burc_container>.burc_item {
+    display: inline-block;
+}
+
+.burc_container>.burc_item>a {
+    background: #DFDFDF;
+    display: block;
+    border: 2px solid #DBDBDB;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.burc_container>.burc_item>a:hover {
+    border: 2px solid darkred;
+}
+
+.burc_container>.burc_item>a>img {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    clear: both;
+    width: 28px;
+    height: 28px;
+}
+
+.burc_container>.burc_item>a>span {
+    text-align: center;
+    font-weight: bold;
+    font-size: 10px;
+    font-family: 'Tahoma';
+    display: block;
+    clear: both;
+    margin-top: 2px;
+    color: #444;
+}
+
+.burc_copyright {
+    font-family: 'Tahoma';
+    display: block;
+    margin: 5px auto;
+    font-size: 12px;
+    color: #888;
+    margin-top: 5px;
+    text-align: center;
+}
